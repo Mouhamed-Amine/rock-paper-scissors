@@ -45,7 +45,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [My solution URL here](https://www.frontendmentor.io/solutions/rock-paper-scissor-game-neUZGSm23P)
 - Live Site URL: [rock-paper-scissors](https://rock-paper-scissors-kappa-ebon.vercel.app)
 
 ## My process
