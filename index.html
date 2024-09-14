@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/icon-lizard.svg">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+  <title>Game: Rock, Paper, Scissors</title>
+
+</head>
+<body>
+
+  <!-- Heading -->
+<div class="board">
+  <div class="game_name"> <!-- It changes based on games -->
+    <img class="name" src="images/logo.svg" alt="normal_mode">
+  </div>
+  <div class="game_score ">
+    <div class="inside-content">
+    <span>Player SCORE</span>
+    <span class="score p-count">0</span>
+   </div>
+   <div class="inside-content">
+    <span>Computer SCORE</span>
+    <span class="score c-count">0</span>
+   </div>
+  </div>
+
+</div>
+
+ <!-- Article -->
+ <div id="play">
+  <div class="first">
+    <div class="options">
+          
+      <button class="blue icon" data-index="1" ><img class="paper" src="images/icon-paper.svg" alt="paper"></button>
+      <button class="red icon" data-index="2"><img class="rock" src="images/icon-rock.svg" alt="rock"></button>
+      <button class="yellow icon" data-index="3"><img class="scissors" src="images/icon-scissors.svg" alt="scissors"></button>
+    </div>
+  </div>
+  
+  </div>
+
+
+<!-- Bottom section -->
+<div class="bottom-page">
+  <div class="inner-container">
+    <div class="result fade">Score</div>
+    <div class="round"></div>
+    <div class="rules-btn">
+      <a href="#" class="rules-content">Rules</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- The Popup -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <div class="header-popup">
+      <h2>RULES</h2>
+      <img class="close" src="images/icon-close.svg" alt="icon-close" onclick="closePopup()">
+    </div>
+      <img src="images/image-rules.svg" alt="Rules Image" class="popup-image">
+  </div>
+</div>
+
+
+
+  <!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+<script src="logic.js"></script>
+</html>
