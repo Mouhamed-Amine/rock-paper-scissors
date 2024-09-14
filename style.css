@@ -450,6 +450,9 @@ width: 40px;
 
 @media only screen and (max-width: 490px) {
     
+    body{
+        overflow: scroll;
+    }
 
 
     .options
