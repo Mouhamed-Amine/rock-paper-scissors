@@ -36,17 +36,17 @@ Users should be able to:
 
 ![desktop-preview](./design/desktop-preview.jpg)
 
-![Lobby](./design/original/lobby.jpg)
-![Starting](./design/original/GameStarts.jpg)
-![rules](./design/original/rules.jpg)
-![mobile-preview](./design/original/mobile.jpg)
+![Lobby](./design/original/lobby.JPG)
+![Starting](./design/original/GameStarts.JPG)
+![rules](./design/original/rules.JPG)
+![mobile-preview](./design/original/mobile.JPG)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My solution URL here](https://www.frontendmentor.io/solutions/rock-paper-scissor-game-neUZGSm23P)
+- Live Site URL: [rock-paper-scissors](https://rock-paper-scissors-kappa-ebon.vercel.app)
 
 ## My process
 
@@ -56,11 +56,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
+- ES6+
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
