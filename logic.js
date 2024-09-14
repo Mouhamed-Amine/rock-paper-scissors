@@ -22,9 +22,6 @@ function getRandomInt(max){
 
 
 function loadGame (){
-    lobbyMusic = new Audio('Hollow Knight OST - Hollow Knight.mp3');
-    lobbyMusic.loop = true;
-    lobbyMusic.play();
     const roundsPlayed = localStorage.getItem('roundsPlayed') || 10 ;
     playerScore = parseInt(localStorage.getItem('playerScore')) || 0;
     computerScore = parseInt(localStorage.getItem('computerScore')) || 0;
@@ -33,7 +30,18 @@ function loadGame (){
     // Update the display with the retrieved scores
     document.querySelector('.p-count').innerText = ` ${playerScore} `;
     document.querySelector('.c-count').innerText = ` ${computerScore}`;
-    
+    lobbyMusic = new Audio('Hollow Knight OST - Hollow Knight.mp3');
+    lobbyMusic.loop = true;
+
+    document.querySelector('.music').addEventListener('click',()=>{
+         // Check if the music is paused or playing
+    if (lobbyMusic.paused) {
+        lobbyMusic.play(); // Play the music if it is paused
+    } else {
+        lobbyMusic.pause(); // Pause the music if it is playing
+    }
+    });
+   
 }
 
 window.onload= loadGame;

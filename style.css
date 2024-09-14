@@ -31,20 +31,41 @@
     padding: 0;
 }
 html,body{
-    height: 120%;
+    height: 100%;
 }
 
 body{
     background-image: radial-gradient(circle,hsl(214, 47%, 23%) 0%,hsl(237, 49%, 15%) 100%);
     position: relative;
     padding: 5em 0;
+    min-height: 130vh;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: var(--Family);
     overflow: hidden;
-    
 }
+.music{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 1em;
+    display: inline;
+    border:1px solid #fff;
+    color: #fff;
+    font-weight: 700;
+    padding: .1em 1em;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.music:hover{
+    color: #dc143c;
+    background-color: #fff;
 
+}
 /* Board section */
 
 .board{
@@ -372,7 +393,7 @@ opacity: .8;
 
 @media only screen and (max-width: 700px) {
     body{
-        padding: 1em 0;
+        padding: 3em 0;
     }
    .board{
     max-width: 80%;
@@ -429,6 +450,24 @@ width: 40px;
 
 @media only screen and (max-width: 490px) {
     
+
+
+    .options
+    {
+        width: 200px;
+        height: 200px;
+        background-size: 200px;
+    }
+    .red
+    {
+    left: 30%;
+    }
+    .icon{  
+        height: 80px;
+        width: 80px;
+    }
+
+
 .inner-container{
     height: 20vh;
 }
