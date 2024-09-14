@@ -36,10 +36,10 @@ Users should be able to:
 
 ![desktop-preview](./design/desktop-preview.jpg)
 
-![Lobby](./design/original/lobby.jpg)
-![Starting](./design/original/GameStarts.jpg)
-![rules](./design/original/rules.jpg)
-![mobile-preview](./design/original/mobile.jpg)
+![Lobby](./design/original/lobby.JPG)
+![Starting](./design/original/GameStarts.JPG)
+![rules](./design/original/rules.JPG)
+![mobile-preview](./design/original/mobile.JPG)
 
 
 
@@ -56,11 +56,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
+- ES6+
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
