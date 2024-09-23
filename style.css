@@ -465,6 +465,9 @@ width: 40px;
     {
     left: 30%;
     }
+   .picker {
+    left: 40%;
+   }
     .icon{  
         height: 80px;
         width: 80px;
@@ -480,10 +483,14 @@ width: 40px;
   }
   .result{
     color: #fff;
+    font-size: 1.7rem;
+    margin-bottom: .5em;
   }
   .retry{
-    background-color: transparent;
+    background-color: hsl(349, 71%, 52%);
+    color: white;
     border: none;
+    font-size: .8rem;
     
   }
   .shadow{
